@@ -1,0 +1,25 @@
+#showcase{
+    background: url('./showcase-example.jpg')no-repeat center center/cover;
+    height: 100vh;
+}
+
+.btn-2{
+   display: inline-block;
+   padding: 0.5rem 4rem;
+   margin-top: 2rem;
+   border-radius: 40px;
+}
+
+.btn-2:hover{
+    background: skyblue;
+    color: #333;
+}
+
+#showcase .container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
